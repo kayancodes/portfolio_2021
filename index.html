@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+
+     <!-- FAVICON ------------------------------->
+     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+     <!-- REMIXICON ------------------------------->
+     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+     
+     <!-- SWIPER  CSS------------------------------->
+     <link rel="stylesheet" href="assets/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <title>TEMPLATE SCSS 0</title>
+</head>
+<body>
+
+    <!--DEBUT HEADER / MENU NAV======================================================================================================================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav__logo">Yannick</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Accueil</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#apropos" class="nav__link active-link">À propos</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#competences" class="nav__link active-link">Compétences</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link active-link">Services</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link active-link">Portfolio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link active-link">Contact</a>
+                    </li>
+                </ul>
+
+
+
+                <i class="ri-close-fill nav__close" id="nav-close"></i>
+
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+    <!--FIN HEADER ======================================================================================================================-->
+
+
+
+
+        <!--DEBUT MAIN ======================================================================================================================-->
+        <main class="main">
+
+            <!--========== DEBUT HOME ======================================================================-->
+            <section class="home section" id="home">
+                <div class="home__container container">
+                    <div class="home__text">
+                        <h1>Yannick Kabasele</h1>
+                        <h2 class="h2__titre">Intégrateur Web</h2>
+                    </div>
+    
+                    <div class="home__info">
+
+                        <div class="home__info-img">
+                            <img src="assets/img/home.png" alt="">
+                        </div>
+
+                        <div class="home__info-text grid">
+                            <h3>Bonjour</h3>
+                            <p class="home__description">Intégrateur et développeur frontend junior passionée.</p>
+                            <div>
+                                <a href="#portfolio" class="button">Portfolio</a>
+                            </div>
+                            
+                        </div> 
+
+                    </div>
+                    
+                </div>
+            </section>
+            <!--========== FIN HOME ======================================================================-->
+
+
+            <!--========== DEBUT APROPOS ======================================================================-->
+            <section class="apropos section" id="apropos">
+                <h2 class="section__title">À propos</h2>    
+                <span class="section__subtitle">Mon introduction</span>   
+            
+                <div class="apropos__container container grid">
+                    <div class="apropos__img-container">
+                        <img src="" alt="" class="apropos__img">
+                    </div>
+
+
+                    <div class="apropos__data">
+                        <p class="apropos__description">
+                        Web developer, with extensive knowledge and years of experience, 
+                        working in web technologies and UI / UX design, delivering quality work.
+                        </p>
+
+                        <div class="apropos__info">
+                            <div>
+                                <span class="apropos__info-title">35</span>
+                                <span class="apropos__info-name">sites responsives <br>intégrés</span>
+                            </div>
+                            <div>
+                                <span class="apropos__info-title">01</span>
+                                <span class="apropos__info-name">API REST <br>développé</span>
+                            </div>
+                            <div>
+                                <span class="apropos__info-title">04</span>
+                                <span class="apropos__info-name">projet UX UI <br>réalisés</span>
+                            </div>
+                        </div>
+
+                        <div class="apropos__buttons">
+                            <a download="" href="" class="button button--flex">Curriculum Vitae</a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!--========== FIN APROPOS ======================================================================-->
+
+
+            <!--========== DEBUT competences ======================================================================-->
+            <section class="competences section" id="competences">
+                <h2 class="section__title">Compétences</h2>
+                <span class="section__subtitle">Mes niveaux technique</span>
+
+                <div class="competences__container container grid">
+
+                        <!--------DEBUT competences 1 : DESIGN-------------------->
+                        <div class="competences__content competences__open">
+                            <div class="competences__header">
+                                <div>
+                                    <h3 class="competences__title">Designer</h3>
+                                    <!-- <span class="competences__subtitle">More than 4 years</span> -->
+                                </div>
+
+                                <i class="ri-arrow-down-s-line competences__arrow"></i>
+                            </div>
+
+                            <!--------DEBUT HTML-------------------->
+                            <div class="competences__list grid">
+                                <!--------DEBUT UX-------------------->
+                                <div class="competences__data">
+                                    <div class="competences__titles">
+                                        <h3 class="competences__name">Méthodologie de design UX</h3>
+                                        <span class="competences__number">90%</span>
+                                    </div>
+                                    <div class="competences__bar">
+                                        <span class="competences__percentage competences__ux"></span>
+                                    </div>
+                                </div>
+                                <!--------FIN UX-------------------->
+
+                                <!--------DEBUT PS-------------------->
+                                <div class="competences__data">
+                                    <div class="competences__titles">
+                                        <h3 class="competences__name">Adobe Photoshop</h3>
+                                        <span class="competences__number">90%</span>
+                                    </div>
+                                    <div class="competences__bar">
+                                        <span class="competences__percentage competences__ps"></span>
+                                    </div>
+                                </div>
+                                <!--------FIN PS-------------------->
+
+                                <!--------DEBUT XD-------------------->
+                                <div class="competences__data">
+                                    <div class="competences__titles">
+                                        <h3 class="competences__name">Adobe XD</h3>
+                                        <span class="competences__number">90%</span>
+                                    </div>
+                                    <div class="competences__bar">
+                                        <span class="competences__percentage competences__xd"></span>
+                                    </div>
+                                </div>
+                                <!--------FIN XD-------------------->
+
+                                <!--------DEBUT MARVELL APP-------------------->
+                                <div class="competences__data">
+                                    <div class="competences__titles">
+                                        <h3 class="competences__name">Marvel app</h3>
+                                        <span class="competences__number">90%</span>
+                                    </div>
+                                    <div class="competences__bar">
+                                        <span class="competences__percentage competences__app"></span>
+                                    </div>
+                                </div>
+                                <!--------FIN MARVELL APP-------------------->
+
+                            </div>
+                        </div>
+                        <!--------FIN competences 1 : DESIGN-------------------->
+                        
+                        <!--------DEBUT competences 2 : FRONTEND-------------------->
+                        <div class="competences__content competences__close">
+                            <div class="competences__header">
+                                <div>
+                                    <h3 class="competences__title">Frontend developer</h3>
+                                    <!-- <span class="competences__subtitle">More than 4 years</span> -->
+                                </div>
+
+                                <i class="ri-arrow-down-s-line competences__arrow"></i>
+                            </div>
+
+                            <!--------DEBUT HTML-------------------->
+                            <div class="competences__list grid">
+                                <!--------DEBUT HTML-------------------->
+                                <div class="competences__data">
+                                    <div class="competences__titles">
+                                        <h3 class="competences__name">HTML</h3>
+                                        <span class="competences__number">90%</span>
+                                    </div>
+                                    <div class="competences__bar">
+                                        <span class="competences__percentage competences__html"></span>
+                                    </div>
+                                </div>
+                                <!--------FIN HTML-------------------->
+
+                                <!--------DEBUT SCSS-------------------->
+                                <div class="competences__data">
+                                    <div class="competences__titles">
+                                        <h3 class="competences__name">SCSS</h3>
+                                        <span class="competences__number">90%</span>
+                                    </div>
+                                    <div class="competences__bar">
+                                        <span class="competences__percentage competences__scss"></span>
+                                    </div>
+                                </div>
+                                <!--------FIN SCSS-------------------->
+
+                                <!--------DEBUT JS-------------------->
+                                <div class="competences__data">
+                                    <div class="competences__titles">
+                                        <h3 class="competences__name">JavaScript</h3>
+                                        <span class="competences__number">90%</span>
+                                    </div>
+                                    <div class="competences__bar">
+                                        <span class="competences__percentage competences__js"></span>
+                                    </div>
+                                </div>
+                                <!--------FIN JS-------------------->
+
+                                <!--------DEBUT VUE.JS-------------------->
+                                <div class="competences__data">
+                                    <div class="competences__titles">
+                                        <h3 class="competences__name">VUE.JS</h3>
+                                        <span class="competences__number">90%</span>
+                                    </div>
+                                    <div class="competences__bar">
+                                        <span class="competences__percentage competences__vuejs"></span>
+                                    </div>
+                                </div>
+                                <!--------FIN HTML-------------------->
+
+                            </div>
+                        </div>
+                        <!--------FIN competences 2 : FRONTEND-------------------->
+
+                        <!--------DEBUT competences 3 : BACKEND-------------------->
+                        <div class="competences__content competences__close">
+                            <div class="competences__header">
+                                <div>
+                                    <h3 class="competences__title">Backend developer</h3>
+                                    <!-- <span class="competences__subtitle">More than 4 years</span> -->
+                                </div>
+
+                                <i class="ri-arrow-down-s-line competences__arrow"></i>
+                            </div>
+
+                            <!--------DEBUT HTML-------------------->
+                            <div class="competences__list grid">
+                                <!--------DEBUT NODEJS-------------------->
+                                <div class="competences__data">
+                                    <div class="competences__titles">
+                                        <h3 class="competences__name">Node.js</h3>
+                                        <span class="competences__number">90%</span>
+                                    </div>
+                                    <div class="competences__bar">
+                                        <span class="competences__percentage competences__nodejs"></span>
+                                    </div>
+                                </div>
+                                <!--------FIN NODEJS-------------------->
+
+                                <!--------DEBUT MYSQL-------------------->
+                                <div class="competences__data">
+                                    <div class="competences__titles">
+                                        <h3 class="competences__name">MySQL</h3>
+                                        <span class="competences__number">90%</span>
+                                    </div>
+                                    <div class="competences__bar">
+                                        <span class="competences__percentage competences__sql"></span>
+                                    </div>
+                                </div>
+                                <!--------FIN MYSQL-------------------->
+
+                                <!--------DEBUT PHP-------------------->
+                                <div class="competences__data">
+                                    <div class="competences__titles">
+                                        <h3 class="competences__name">PHP</h3>
+                                        <span class="competences__number">90%</span>
+                                    </div>
+                                    <div class="competences__bar">
+                                        <span class="competences__percentage competences__php"></span>
+                                    </div>
+                                </div>
+                                <!--------FIN PHP-------------------->
+
+                                <!--------DEBUT VUE.JS-------------------->
+                                <!-- <div class="competences__data">
+                                    <div class="competences__titles">
+                                        <h3 class="competences__name">VUE.JS</h3>
+                                        <span class="competences__number">90%</span>
+                                    </div>
+                                    <div class="competences__bar">
+                                        <span class="competences__percentage competences__vuejs"></span>
+                                    </div>
+                                </div> -->
+                                <!--------FIN HTML-------------------->
+
+                            </div>
+                        </div>
+                        <!--------FIN competences 3 : BACKEND-------------------->
+
+
+                        <!--------DEBUT competences 4 : CHEF DE PROJET-------------------->
+                        <div class="competences__content competences__close">
+                            <div class="competences__header">
+                                <div>
+                                    <h3 class="competences__title">Chef de projet</h3>
+                                    <!-- <span class="competences__subtitle">More than 4 years</span> -->
+                                </div>
+
+                                <i class="ri-arrow-down-s-line competences__arrow"></i>
+                            </div>
+
+                            <div class="competences__list grid">
+                                <!--------DEBUT METHODE AGILE-------------------->
+                                <div class="competences__data">
+                                    <div class="competences__titles">
+                                        <h3 class="competences__name">Méthode agile</h3>
+                                        <span class="competences__number">90%</span>
+                                    </div>
+                                    <div class="competences__bar">
+                                        <span class="competences__percentage competences__agile"></span>
+                                    </div>
+                                </div>
+                                <!--------FIN METHODE AGILE-------------------->
+
+                                <!--------DEBUT GIT-GITHUB-------------------->
+                                <div class="competences__data">
+                                    <div class="competences__titles">
+                                        <h3 class="competences__name">GIT GITHUB</h3>
+                                        <span class="competences__number">90%</span>
+                                    </div>
+                                    <div class="competences__bar">
+                                        <span class="competences__percentage competences__git"></span>
+                                    </div>
+                                </div>
+                                <!--------FIN GIT-GITHUB-------------------->
+
+                                <!--------DEBUT TRELLO-------------------->
+                                <div class="competences__data">
+                                    <div class="competences__titles">
+                                        <h3 class="competences__name">Trello</h3>
+                                        <span class="competences__number">90%</span>
+                                    </div>
+                                    <div class="competences__bar">
+                                        <span class="competences__percentage competences__trello"></span>
+                                    </div>
+                                </div>
+                                <!--------FIN TRELLO-------------------->
+
+                                <!--------DEBUT ANGLAIS-------------------->
+                                <div class="competences__data">
+                                    <div class="competences__titles">
+                                        <h3 class="competences__name">Anglais</h3>
+                                        <span class="competences__number">90%</span>
+                                    </div>
+                                    <div class="competences__bar">
+                                        <span class="competences__percentage competences__anglais"></span>
+                                    </div>
+                                </div>
+                                <!--------FINANGLAIS-------------------->
+
+                            </div>
+                        </div>
+                        <!--------FIN competences 4 : CHEF DE PROJET-------------------->
+
+                </div>
+
+            </section>
+            <!--========== DEBUT competences ======================================================================-->
+
+            
+            <!--========== DEBUT  QUALIFICCATION ======================================================================-->
+            <section class="qualification section">
+                <h2 class="section__title">Qualifications</h2>  
+                <span class="section__subtitle">Mon parcours personnel</span>  
+                
+                <div class="qualification__container container">
+                    <div class="qualification__tabs">
+                        <div class="qualification__button button--flex qualification__active" data-target='#scolarite'>
+                            Scolarité
+                        </div>
+                        <div class="qualification__button button--flex" data-target="#professionnel">
+                            Professionnel
+                        </div>
+                    </div>
+
+
+                    <div class="qualification__sections">
+
+                        <!---------- QUALIFICATION CONTENT 1 ------------->
+                        <div class="qualification__content qualification__active" data-content id="scolarite">
+
+                            <!---------- QUALIFICATION 1 ------------->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Développeur Blockchain</h3>
+                                    <span class="qualification__subtitle">Alyra - À distance</span>
+                                    <div class="qualification__calendar">
+                                        2021 - 2021
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__square"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                                
+                            </div>
+                            <!---------- QUALIFICATION 1 ------------->
+
+                            <!---------- QUALIFICATION 2 ------------->
+                            <div class="qualification__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification__square"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification__title">Concepteur Développeur d'Application</h3>
+                                    <span class="qualification__subtitle">Simplon - Montreuil</span>
+                                    <div class="qualification__calendar">
+                                        2018 - 2019
+                                    </div>
+                                </div>
+                            </div>
+                            <!---------- QUALIFICATION 2 ------------->
+
+                            <!---------- QUALIFICATION 3 ------------->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Développement Web</h3>
+                                    <span class="qualification__subtitle">Simplon - Sarcelles</span>
+                                    <div class="qualification__calendar">
+                                        2017 - 2018
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__square"></span>
+                                    <!-- <span class="qualification__line"></span> -->
+
+                                </div>
+                            </div>
+                            <!---------- QUALIFICATION 3 ------------->
+
+                            <!---------- QUALIFICATION 4 ------------->
+                            <!-- <div class="qualification__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification__square"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+
+
+                                <div>
+                                    <h3 class="qualification__title">Master in Ui/Ux</h3>
+                                    <span class="qualification__subtitle">Peru - Institute</span>
+                                    <div class="qualification__calendar">
+                                        2009 - 2014
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!---------- QUALIFICATION 4 ------------->
+                        </div>
+                        <!---------- QUALIFICATION CONTENT 1 ------------->
+
+
+
+                        <!---------- QUALIFICATION CONTENT 2 ------------->
+                        <div class="qualification__content" data-content id="professionnel">
+
+                            <!---------- QUALIFICATION 1 ------------->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Intégrateur Web</h3>
+                                    <span class="qualification__subtitle">Freelance</span>
+                                    <div class="qualification__calendar">
+                                        2021 - 2021
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__square"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                                
+                            </div>
+                            <!---------- QUALIFICATION 1 ------------->
+
+                            <!---------- QUALIFICATION 2 ------------->
+                            <div class="qualification__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification__square"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification__title">Intégrateur Web</h3>
+                                    <span class="qualification__subtitle">Avent Media Group - Levallois Perret</span>
+                                    <div class="qualification__calendar">
+                                        2018 - 2019
+                                    </div>
+                                </div>
+                            </div>
+                            <!---------- QUALIFICATION 2 ------------->
+
+                            <!---------- QUALIFICATION 3 ------------->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Intégrateur Web</h3>
+                                    <span class="qualification__subtitle">CulturMoov - Villetaneuse</span>
+                                    <div class="qualification__calendar">
+                                        2018 - 2018
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__square"></span>
+                                    <!-- <span class="qualification__line"></span> -->
+
+                                </div>
+                            </div>
+                            <!---------- QUALIFICATION 3 ------------->
+
+                            <!---------- QUALIFICATION 4 ------------->
+                             <!-- <div class="qualification__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification__square"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification__title">Ui Ux Designer</h3>
+                                    <span class="qualification__subtitle">Peru - Institute</span>
+                                    <div class="qualification__calendar">
+                                        2009 - 2014
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!---------- QUALIFICATION 4 ------------->
+                        </div>
+                        <!---------- QUALIFICATION CONTENT 2 ------------->
+
+
+
+                    </div>
+                </div>
+            </section>
+            <!--========== FIN  QUALIFICCATION ======================================================================-->
+
+
+
+            <!--========== DEBUT  SERVICES ======================================================================-->
+            <section class="services section" id="services">
+                <h2 class="section__title">Services</h2>
+                <span class="section__subtitle">Ce que je peux vous apporter</span>
+
+                <div class="services__container container grid">
+
+                    <!-----------SERVICE 1---------------------->
+                    <div class="services__content">
+                        <h3 class="services__title">Intégration web</h3>
+                        <ul class="services__list grid">
+                            <li>Intégration Web à partir de maquette PSD, en HTML, CSS, JavaScript et SASS</li>
+                            <li>Mise en oeuvre et suivi des bonnes pratiques d’intégration Responsive Design</li>
+                            <li>Force de proposition en terme d’Ux Ui Design</li>
+                            <li>Recettage et Optimisation de l’Accessibilité des Sites et du code</li>
+                        </ul>
+                    </div>
+                    <!-----------SERVICE 1---------------------->
+
+                    <br>
+                    
+                    <!-----------SERVICE 2---------------------->
+                    <div class="services__content">
+                        <h3 class="services__title">Développement frontend</h3>
+                        <ul class="services__list grid">
+                            <li>Animations en CSS et JavaScript</li>
+                            <li>Développement d’application web avec le framework javascript Vue.js et webpack</li>
+                            <li>Recettage et Optimisation de l’Accessibilité des Sites et du code</li>
+                        </ul>
+                    </div>
+                    <!-----------SERVICE 2---------------------->
+
+                </div>
+
+            </section>
+            <!--========== FIN  SERVICES ======================================================================-->
+
+            
+            <!--========== DEBUT  PORTFOLIO ======================================================================-->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section__title">Portfolio</h2>
+                <span class="section__subtitle">Mes travaux les plus récents</span>
+
+                <div class="portfolio__container container grid">
+
+                    <!------- DEBUT PORTFOLIO PROJET 1 ------>
+                    <div class="portfolio__card">
+                        <div class="portfolio__bkg">
+                            <img src="assets/img/test2.png" alt="">
+                        </div>
+
+                        <div class="portfolio__content">
+                            <button class="portfolio__button-modal portfolio__button">
+                                <i class="ri-add-line portfolio__modal-icon"></i>
+                                <!-- <span class="portfolio__rating-number">4,8</span> -->
+                            </button>
+                            
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Café Royal : lead to store</h3>
+                                <span class="portfolio__subtitle">Intégration Web Responsive</span>
+                                <!-- <span class="portfolio__price">2019</span> -->
+                            </div>
+                        </div>
+
+                        <button class="portfolio__button-redirection portfolio__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                        
+
+                        <!------------------------------------DEBUT MODAL PROJET 1------------>
+                        <div class="portfolio__modal">
+                            <div class="portfolio__modal-content">
+                                <h4 class="portfolio__modal-title">Café Royal</h4>
+                                <i class="ri-close-fill portfolio__modal-close"></i>
+
+                                <ul class="portfolio__modal-portfolio grid">
+                                    <li class="portfolio__modal-service">
+                                        <i class="ri-checkbox-blank-fill portfolio__modal-iconPano"></i>
+                                        <p>i developpe the user interface.</p>
+                                    </li>
+                                    <li class="portfolio__modal-service">
+                                        <i class="ri-checkbox-blank-fill portfolio__modal-iconPano"></i>
+                                        <p>i developpe the user interface.</p>
+                                    </li>
+                                    <li class="portfolio__modal-service">
+                                        <i class="ri-checkbox-blank-fill portfolio__modal-iconPano"></i>
+                                        <p>i developpe the user interface.</p>
+                                    </li>
+                                    <li class="portfolio__modal-service">
+                                        <i class="ri-checkbox-blank-fill portfolio__modal-iconPano"></i>
+                                        <p>i developpe the user interface.</p>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <!------------------------------------DEBUT MODAL PROJET 1------------>
+
+                    </div>
+                    <!------- FIN PORTFOLIO PROJET 1 -------->
+
+
+
+
+
+                    <!------- DEBUT PORTFOLIO PROJET 2 ------>
+                    <div class="portfolio__card">
+                        <div class="portfolio__bkg">
+                            <img src="assets/img/test2.png" alt="">
+                        </div>
+
+                        <div class="portfolio__content">
+                            <button class="portfolio__button-modal portfolio__button">
+                                <i class="ri-add-line portfolio__modal-icon"></i>
+                                <!-- <span class="portfolio__rating-number">4,8</span> -->
+                            </button>
+                            
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Café Royal : lead to store</h3>
+                                <span class="portfolio__subtitle">Intégration Web Responsive</span>
+                                <!-- <span class="portfolio__price">2019</span> -->
+                            </div>
+                        </div>
+
+                        <button class="portfolio__button-redirection portfolio__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                        
+
+                        <!------------------------------------DEBUT MODAL PROJET 1------------>
+                        <div class="portfolio__modal">
+                            <div class="portfolio__modal-content">
+
+                             <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+
+                                        <!-------------------------------------------------------------->
+                                        <div class="swiper-slide">
+                                            <h4 class="portfolio__modal-title">Café Royal 2</h4>
+                                            <i class="ri-close-fill portfolio__modal-close"></i>
+
+                                            <ul class="portfolio__modal-portfolio grid">
+                                                <li class="portfolio__modal-service">
+                                                    <i class="ri-checkbox-blank-fill portfolio__modal-iconPano"></i>
+                                                    <p>i developpe the user interface.</p>
+                                                </li>
+                                                <li class="portfolio__modal-service">
+                                                    <i class="ri-checkbox-blank-fill portfolio__modal-iconPano"></i>
+                                                    <p>i developpe the user interface.</p>
+                                                </li>
+                                                <li class="portfolio__modal-service">
+                                                    <i class="ri-checkbox-blank-fill portfolio__modal-iconPano"></i>
+                                                    <p>i developpe the user interface.</p>
+                                                </li>
+                                                <li class="portfolio__modal-service">
+                                                    <i class="ri-checkbox-blank-fill portfolio__modal-iconPano"></i>
+                                                    <p>i developpe the user interface.</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!-------------------------------------------------------------->  
+
+                                        <!-------------------------------------------------------------->
+                                        <div class="swiper-slide">
+                                            <h4 class="portfolio__modal-title">Café Royal 3</h4>
+                                            <i class="ri-close-fill portfolio__modal-close"></i>
+
+                                            <ul class="portfolio__modal-portfolio grid">
+                                                <li class="portfolio__modal-service">
+                                                    <i class="ri-checkbox-blank-fill portfolio__modal-iconPano"></i>
+                                                    <p>i developpe the user interface.</p>
+                                                </li>
+                                                <li class="portfolio__modal-service">
+                                                    <i class="ri-checkbox-blank-fill portfolio__modal-iconPano"></i>
+                                                    <p>i developpe the user interface.</p>
+                                                </li>
+                                                <li class="portfolio__modal-service">
+                                                    <i class="ri-checkbox-blank-fill portfolio__modal-iconPano"></i>
+                                                    <p>i developpe the user interface.</p>
+                                                </li>
+                                                <li class="portfolio__modal-service">
+                                                    <i class="ri-checkbox-blank-fill portfolio__modal-iconPano"></i>
+                                                    <p>i developpe the user interface.</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!-------------------------------------------------------------->  
+                                        
+                                    
+                                    </div><!--fin swiper-wrapper-->
+
+
+                                    <!-- Add Pagination -->
+                                    <div class="swiper-pagination"></div>
+                                    <!-- Add Arrows -->
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+
+                                </div> <!--fin swiper-container-->
+
+
+
+
+                            </div><!-- fin portfolio__modal-content-->
+                      </div>
+                        <!------------------------------------DEBUT MODAL PROJET 1------------>
+
+                    </div>
+                    <!------- FIN PORTFOLIO PROJET 2 -------->
+
+
+                    
+                    
+
+                </div>
+            </section>
+            <!--========== FIN  PORTFOLIO ======================================================================-->
+
+
+            
+
+
+    
+        </main>
+        <!--FIN MAIN ======================================================================================================================-->
+
+
+        <!--SWIPER JS================================-->
+        <script src="js/swiper-bundle.min.js"></script>  
+
+    <!--MAIN JS================================-->
+        <script src="js/main.js"></script>   
+</body>
+</html>
