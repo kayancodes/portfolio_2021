@@ -64,7 +64,7 @@ h1 {
   font-weight: var(--font-light);
   font-family: var(--body-font);
   text-align: center;
-  font-size: var(--mb-2); }
+  font-size: var(--mb-1-5); }
 
 h2 {
   color: #000;
@@ -223,7 +223,7 @@ input {
   margin-right: 0 !important; }
 
 .home__text {
-  margin-bottom: 15%; }
+  margin-bottom: 1rem; }
 
 .home__info-img {
   background-color: blue; }
@@ -677,7 +677,7 @@ input {
     margin-right: var(--mb-1); }
 
   .home__text {
-    margin-bottom: 10%; }
+    margin-bottom: 1rem; }
 
   .home__info-text {
     padding: 1rem 1.5rem 1rem; }
@@ -695,7 +695,7 @@ input {
     max-width: 60%; } }
 @media (min-width: 351px) {
   .home__text {
-    margin-bottom: 10%; }
+    margin-bottom: 1rem; }
 
   .portfolio__modal-content {
     height: 90%;
@@ -705,7 +705,7 @@ input {
     font-size: var(--small-font-size); }
 
   .portfolio__modal-contenair {
-    padding-top: 2rem; } }
+    padding-top: 1rem; } }
 @media (min-width: 568px) {
   .portfolio__container {
     grid-template-columns: repeat(2, 1fr);
@@ -741,6 +741,9 @@ input {
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1); }
+
+  .home__text {
+    margin-bottom: 5rem; }
 
   .nav {
     height: calc(var(--header-height) + 1.5rem); }
