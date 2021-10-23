@@ -7,12 +7,19 @@
     }
   }
 
-  //375px small devices
+  //350px small devices
 @mixin s {
-    @media (min-width: #{$screen-s-min}){
+    @media (max-width: #{$screen-s-max}){
       @content;
     }
   }
+
+    //351px a partir. small devices
+@mixin ss {
+  @media (min-width: #{$screen-ss-min}){
+    @content;
+  }
+}
 
    //414px small-medium devices
 @mixin sm {

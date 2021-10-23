@@ -17,14 +17,14 @@
      <link rel="stylesheet" href="assets/swiper-bundle.min.css">
 
     <link rel="stylesheet" href="style.css">
-    <title>TEMPLATE SCSS 0</title>
+    <title>Kayan</title>
 </head>
 <body>
 
     <!--DEBUT HEADER / MENU NAV======================================================================================================================-->
     <header class="header" id="header">
         <nav class="nav container">
-            <a href="#home" class="nav__logo">Yannick</a>
+            <a href="#home" class="nav__logo">Kayan</a>
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
@@ -36,7 +36,7 @@
                     </li>
                     <li class="nav__item">
                         <a href="#competences" class="nav__link active-link">Compétences</a>
-                    </li>
+                    </li> 
                     <li class="nav__item">
                         <a href="#services" class="nav__link active-link">Services</a>
                     </li>
@@ -71,19 +71,19 @@
             <section class="home section" id="home">
                 <div class="home__container container">
                     <div class="home__text">
-                        <h1>Yannick Kabasele</h1>
-                        <h2 class="h2__titre">Intégrateur Web</h2>
+                        <h1>Kayan</h1>
+                        <h2 class="h2__titre">From Pixels to Codes</h2>
                     </div>
     
-                    <div class="home__info">
+                    <div class="home__info grid">
 
                         <div class="home__info-img">
                             <img src="assets/img/home.png" alt="">
                         </div>
 
                         <div class="home__info-text grid">
-                            <h3>Bonjour</h3>
-                            <p class="home__description">Intégrateur et développeur frontend junior passionée.</p>
+                            <h3>Yannick Kabasele, <br> alias Kayan</h3>
+                            <p class="home__description">Intégrateur Développeur Web, passioné par le web côté front.</p>
                             <div>
                                 <a href="#portfolio" class="button">Portfolio</a>
                             </div>
@@ -110,8 +110,11 @@
 
                     <div class="apropos__data">
                         <p class="apropos__description">
-                        Web developer, with extensive knowledge and years of experience, 
-                        working in web technologies and UI / UX design, delivering quality work.
+                        <!-- Web developer, with extensive knowledge and years of experience, 
+                        working in web technologies and UI / UX design, delivering quality work. -->
+                        Passionné par le monde du numérique, la psychologie 
+                        cognitive, les nouvelles technologies et le design sous toutes ses formes, j’ai initialement suivit un cursus 
+                        dans le domaine de la Qualité. Domaine que j’ai quitté en 2017 pour me reconvertir dans le déveleloppemnt web.
                         </p>
 
                         <div class="apropos__info">
@@ -130,7 +133,7 @@
                         </div>
 
                         <div class="apropos__buttons">
-                            <a download="" href="" class="button button--flex">Curriculum Vitae</a>
+                            <a download="" href="assets/KABASELE__Yannick-CV.pdf" target="_blank" class="button button--flex">Curriculum Vitae</a>
                         </div>
                     </div>
 
@@ -146,6 +149,7 @@
 
                 <div class="competences__container container grid">
 
+                    <div>
                         <!--------DEBUT competences 1 : DESIGN-------------------->
                         <div class="competences__content competences__open">
                             <div class="competences__header">
@@ -275,7 +279,9 @@
                             </div>
                         </div>
                         <!--------FIN competences 2 : FRONTEND-------------------->
+                    </div>
 
+                    <div>
                         <!--------DEBUT competences 3 : BACKEND-------------------->
                         <div class="competences__content competences__close">
                             <div class="competences__header">
@@ -341,7 +347,6 @@
                         </div>
                         <!--------FIN competences 3 : BACKEND-------------------->
 
-
                         <!--------DEBUT competences 4 : CHEF DE PROJET-------------------->
                         <div class="competences__content competences__close">
                             <div class="competences__header">
@@ -405,7 +410,7 @@
                             </div>
                         </div>
                         <!--------FIN competences 4 : CHEF DE PROJET-------------------->
-
+                    </div>
                 </div>
 
             </section>
@@ -609,7 +614,7 @@
 
                     <!-----------SERVICE 1---------------------->
                     <div class="services__content">
-                        <h3 class="services__title">Intégration web</h3>
+                        <h3 class="services__title">Intégration <br> web</h3>
                         <ul class="services__list grid">
                             <li>Intégration Web à partir de maquette PSD, en HTML, CSS, JavaScript et SASS</li>
                             <li>Mise en oeuvre et suivi des bonnes pratiques d’intégration Responsive Design</li>
@@ -619,11 +624,11 @@
                     </div>
                     <!-----------SERVICE 1---------------------->
 
-                    <br>
+                    
                     
                     <!-----------SERVICE 2---------------------->
                     <div class="services__content">
-                        <h3 class="services__title">Développement frontend</h3>
+                        <h3 class="services__title">Développement <br> frontend</h3>
                         <ul class="services__list grid">
                             <li>Animations en CSS et JavaScript</li>
                             <li>Développement d’application web avec le framework javascript Vue.js et webpack</li>
@@ -645,151 +650,90 @@
 
                 <div class="portfolio__container container grid">
 
-                    <!------- DEBUT PORTFOLIO PROJET 1 ------>
-                    <div class="portfolio__card">
+
+
+                        <!------- DEBUT PORTFOLIO PROJET 4 ------>
+                        <div class="portfolio__card">
                         <div class="portfolio__bkg">
-                            <img src="assets/img/test2.png" alt="">
+                            <img src="assets/img/portfolio.png" alt="">
                         </div>
 
                         <div class="portfolio__content">
                             <button class="portfolio__button-modal portfolio__button">
                                 <i class="ri-add-line portfolio__modal-icon"></i>
-                                <!-- <span class="portfolio__rating-number">4,8</span> -->
                             </button>
-                            
-
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__title">Café Royal : lead to store</h3>
-                                <span class="portfolio__subtitle">Intégration Web Responsive</span>
-                                <!-- <span class="portfolio__price">2019</span> -->
-                            </div>
-                        </div>
-
-                        <button class="portfolio__button-redirection portfolio__button">
-                            <i class="ri-arrow-right-line"></i>
-                        </button>
                         
 
-                        <!------------------------------------DEBUT MODAL PROJET 1------------>
-                        <div class="portfolio__modal">
-                            <div class="portfolio__modal-content">
-                                <h4 class="portfolio__modal-title">Café Royal</h4>
-                                <i class="ri-close-fill portfolio__modal-close"></i>
-
-                                <ul class="portfolio__modal-portfolio grid">
-                                    <li class="portfolio__modal-service">
-                                        <i class="ri-checkbox-blank-fill portfolio__modal-iconPano"></i>
-                                        <p>i developpe the user interface.</p>
-                                    </li>
-                                    <li class="portfolio__modal-service">
-                                        <i class="ri-checkbox-blank-fill portfolio__modal-iconPano"></i>
-                                        <p>i developpe the user interface.</p>
-                                    </li>
-                                    <li class="portfolio__modal-service">
-                                        <i class="ri-checkbox-blank-fill portfolio__modal-iconPano"></i>
-                                        <p>i developpe the user interface.</p>
-                                    </li>
-                                    <li class="portfolio__modal-service">
-                                        <i class="ri-checkbox-blank-fill portfolio__modal-iconPano"></i>
-                                        <p>i developpe the user interface.</p>
-                                    </li>
-                                </ul>
-
-                            </div>
-                        </div>
-                        <!------------------------------------DEBUT MODAL PROJET 1------------>
-
-                    </div>
-                    <!------- FIN PORTFOLIO PROJET 1 -------->
-
-
-
-
-
-                    <!------- DEBUT PORTFOLIO PROJET 2 ------>
-                    <div class="portfolio__card">
-                        <div class="portfolio__bkg">
-                            <img src="assets/img/test2.png" alt="">
-                        </div>
-
-                        <div class="portfolio__content">
-                            <button class="portfolio__button-modal portfolio__button">
-                                <i class="ri-add-line portfolio__modal-icon"></i>
-                                <!-- <span class="portfolio__rating-number">4,8</span> -->
-                            </button>
-                            
-
                             <div class="portfolio__data">
-                                <h3 class="portfolio__title">Café Royal : lead to store</h3>
-                                <span class="portfolio__subtitle">Intégration Web Responsive</span>
-                                <!-- <span class="portfolio__price">2019</span> -->
+                                <h3 class="portfolio__title">Portfolio</h3>
+                                <span class="portfolio__subtitle">UX UI Développement Frontend</span>
                             </div>
                         </div>
 
-                        <button class="portfolio__button-redirection portfolio__button">
+                 
+                         
+                         <!-- <a href="https://angebot-cafe-royal.de/" class="portfolio__button-redirection portfolio__button" target="_blank">
                             <i class="ri-arrow-right-line"></i>
-                        </button>
-                        
+                        </a> -->
+                         
+                  
 
-                        <!------------------------------------DEBUT MODAL PROJET 1------------>
+                        <!------------------------------------DEBUT MODAL PROJET 4------------>
                         <div class="portfolio__modal">
                             <div class="portfolio__modal-content">
 
-                             <div class="swiper-container">
+                                <div class="swiper-container">
                                     <div class="swiper-wrapper">
 
                                         <!-------------------------------------------------------------->
                                         <div class="swiper-slide">
-                                            <h4 class="portfolio__modal-title">Café Royal 2</h4>
+                                            <h1 class="portfolio__modal-title">Portfolio</h1>
                                             <i class="ri-close-fill portfolio__modal-close"></i>
 
-                                            <ul class="portfolio__modal-portfolio grid">
-                                                <li class="portfolio__modal-service">
-                                                    <i class="ri-checkbox-blank-fill portfolio__modal-iconPano"></i>
-                                                    <p>i developpe the user interface.</p>
-                                                </li>
-                                                <li class="portfolio__modal-service">
-                                                    <i class="ri-checkbox-blank-fill portfolio__modal-iconPano"></i>
-                                                    <p>i developpe the user interface.</p>
-                                                </li>
-                                                <li class="portfolio__modal-service">
-                                                    <i class="ri-checkbox-blank-fill portfolio__modal-iconPano"></i>
-                                                    <p>i developpe the user interface.</p>
-                                                </li>
-                                                <li class="portfolio__modal-service">
-                                                    <i class="ri-checkbox-blank-fill portfolio__modal-iconPano"></i>
-                                                    <p>i developpe the user interface.</p>
-                                                </li>
+                                            <ul class="portfolio__modal-pano">
+                                                <div class="portfolio__modal-contenair grid">
+                                                    <li class="portfolio__modal-projet">
+                                                        <h3>Rôles joué </h3>
+                                                        <p>UX UI Designer</p>
+                                                        <p>Développeur Front-End</p>
+                                                    </li>
+                                                    <li class="portfolio__modal-projet">
+                                                        <h3>Outils</h3>
+                                                        <p>HTML - SCSS - Javascript - PHP - Responsive Design - UX UI - Adobe XD - Git - Github - BEM - Flexbox - Grid
+                                                        </p>
+                                                    </li>
+                                                    <li class="portfolio__modal-projet">
+                                                        <h3>Nombre de page</h3>
+                                                        <p>1</p>
+                                                    </li>
+                                                    <li class="portfolio__modal-projet">
+                                                        <h3>Client </h3>
+                                                        <p>Projet personnel</p>
+                                                    </li>
+                                                    <li class="portfolio__modal-projet">
+                                                        <h3>Date de réalisation :</h3>
+                                                        <p>2021</p>
+                                                    </li>
+                                                </div>
                                             </ul>
                                         </div>
                                         <!-------------------------------------------------------------->  
 
                                         <!-------------------------------------------------------------->
                                         <div class="swiper-slide">
-                                            <h4 class="portfolio__modal-title">Café Royal 3</h4>
+                                            <h1 class="portfolio__modal-title">Portfolio</h1>
                                             <i class="ri-close-fill portfolio__modal-close"></i>
 
-                                            <ul class="portfolio__modal-portfolio grid">
-                                                <li class="portfolio__modal-service">
-                                                    <i class="ri-checkbox-blank-fill portfolio__modal-iconPano"></i>
-                                                    <p>i developpe the user interface.</p>
-                                                </li>
-                                                <li class="portfolio__modal-service">
-                                                    <i class="ri-checkbox-blank-fill portfolio__modal-iconPano"></i>
-                                                    <p>i developpe the user interface.</p>
-                                                </li>
-                                                <li class="portfolio__modal-service">
-                                                    <i class="ri-checkbox-blank-fill portfolio__modal-iconPano"></i>
-                                                    <p>i developpe the user interface.</p>
-                                                </li>
-                                                <li class="portfolio__modal-service">
-                                                    <i class="ri-checkbox-blank-fill portfolio__modal-iconPano"></i>
-                                                    <p>i developpe the user interface.</p>
-                                                </li>
-                                            </ul>
+                                            <div class="portfolio__modal-pano grid">
+                                                <div class="portfolio__modal-contenair grid">
+                                                    <div class="portfolio__modal-projet">
+                                                        <h3>Objectifs</h3>
+                                                        <p>Réalisé en 2021, mon portfolio a pour but de présenter mes compétences, mes réalisations et mon parcours.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <!-------------------------------------------------------------->  
-                                        
+                                        <!--------------------------------------------------------------> 
                                     
                                     </div><!--fin swiper-wrapper-->
 
@@ -802,16 +746,518 @@
 
                                 </div> <!--fin swiper-container-->
 
+                            </div><!-- fin portfolio__modal-content-->
+                        </div>
+                        <!------------------------------------DEBUT MODAL PROJET 4------------>
+
+                        </div>
+                        <!------- FIN PORTFOLIO PROJET 4 -------->
 
 
+
+                        <!------- DEBUT PORTFOLIO PROJET 3 ------>
+                        <div class="portfolio__card">
+                        <div class="portfolio__bkg">
+                            <img src="assets/img/panser.png" alt="">
+                        </div>
+
+                        <div class="portfolio__content">
+                            <button class="portfolio__button-modal portfolio__button">
+                                <i class="ri-add-line portfolio__modal-icon"></i>
+                            </button>
+                        
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Panser : API REST MEVN</h3>
+                                <span class="portfolio__subtitle">UX UI Fullstack</span>
+                            </div>
+                        </div>
+
+                 
+                         
+                         <a href="https://angebot-cafe-royal.de/" class="portfolio__button-redirection portfolio__button" target="_blank">
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                         
+                  
+
+                        <!------------------------------------DEBUT MODAL PROJET 3------------>
+                        <div class="portfolio__modal">
+                            <div class="portfolio__modal-content">
+
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+
+                                        <!-------------------------------------------------------------->
+                                        <div class="swiper-slide">
+                                            <h1 class="portfolio__modal-title">Panser</h1>
+                                            <i class="ri-close-fill portfolio__modal-close"></i>
+
+                                            <ul class="portfolio__modal-pano">
+                                                <div class="portfolio__modal-contenair grid">
+                                                    <li class="portfolio__modal-projet">
+                                                        <h3>Rôles joué </h3>
+                                                        <p>UX UI Designer</p>
+                                                        <p>Développeur Front-End</p>
+                                                        <p>Développeur Back-End</p>
+                                                        <p>Chef de projet</p>
+                                                    </li>
+                                                    <li class="portfolio__modal-projet">
+                                                        <h3>Outils</h3>
+                                                        <p>HTML - SCSS - Javascript - Vue.js - Webpack - Node.js - Responsive Design - UX UI - Marvell App - unDraw.co -
+                                                            Trello - PHP MyAdmin - Postman - MySql - Git - Github
+                                                        </p>
+                                                    </li>
+                                                    <li class="portfolio__modal-projet">
+                                                        <h3>Nombre de pages</h3>
+                                                        <p>15</p>
+                                                    </li>
+                                                    <li class="portfolio__modal-projet">
+                                                        <h3>Client </h3>
+                                                        <p>Projet de fin d'étude</p>
+                                                    </li>
+                                                    <li class="portfolio__modal-projet">
+                                                        <h3>Date de réalisation :</h3>
+                                                        <p>2019</p>
+                                                    </li>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                        <!-------------------------------------------------------------->  
+
+                                        <!-------------------------------------------------------------->
+                                        <div class="swiper-slide">
+                                            <h1 class="portfolio__modal-title">Panser</h1>
+                                            <i class="ri-close-fill portfolio__modal-close"></i>
+
+                                            <div class="portfolio__modal-pano grid">
+                                                <div class="portfolio__modal-contenair grid">
+                                                    <div class="portfolio__modal-projet">
+                                                        <h3>Context </h3>
+                                                        <p>Application web réalisée dans le cadre du Titre RNCP2 « Concepteur et Développeur d’Applications « 
+                                                        durant lequel j’ai eu l’opportunité de concevoir et développer un projet « chef-d’oeuvre » permettant 
+                                                        de mettre en pratique mes compétences, par la réalisation d’une API REST MEVN.
+                                                        </p>
+                                                    </div>
+                                                    <div class="portfolio__modal-projet">
+                                                        <h3>Objectif de l'application web</h3>
+                                                        <p>Aider et accompagner les personnes isolées traversant un Épisode Dépressif Caractérisé (EDC), couramment appelé "dépression", 
+                                                        en leur proposant un moyen de panser leur blessures émotionnelle par l'organisation de leur pensées.
+                                                    </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--------------------------------------------------------------> 
+                                    
+                                        <!-------------------------------------------------------------->
+                                        <div class="swiper-slide">
+                                            <h1 class="portfolio__modal-title">Panser</h1>
+                                            <i class="ri-close-fill portfolio__modal-close"></i>
+
+                                            <div class="portfolio__modal-pano grid">
+                                                <div class="portfolio__modal-contenair grid centre">
+                                                    <h3>Le Design : methodologie Ux suivit </h3>
+                                                      
+                                                    <div class="portfolio__img-container large">
+                                                        <img src="assets/img/panser__img.png" class="portfolio__img-modal" alt="">
+                                                    </div>
+
+                                                    <div  class="portfolio__modal-buttoncontenair">
+                                                        <a href="https://marvelapp.com/prototype/4edh2e5/screen/61146010?" target="_blank" class="button portfolio__modal-button">Maquette interactive Mobile</a>
+                                                    </div>
+                                                    <div  class="portfolio__modal-buttoncontenair">
+                                                        <a href="https://marvelapp.com/prototype/1i225cfg/screen/62730038?" target="_blank" class="button portfolio__modal-button">Maquette interactive Desktop</a>
+                                                    </div>
+                                                </div>
+                                           
+                                            </div>
+                                        </div>
+                                        <!-------------------------------------------------------------->  
+
+                                        <!-------------------------------------------------------------->
+                                        <div class="swiper-slide">
+                                            <h1 class="portfolio__modal-title">Panser</h1>
+                                            <i class="ri-close-fill portfolio__modal-close"></i>
+
+                                            <ul class="portfolio__modal-pano">
+                                                <div class="portfolio__modal-contenair grid">
+                                                    <h3>Le Code : Fullstack</h3>
+                                                    <P>Il s’agit d’un API REST MEVN. <br> MEVN : <b>M</b>ySQL <b>E</b>xpress <b>V</b>ue.js <b>N</b>ode.js
+                                                    </P>
+                                                    <p>Technologies utilisées pour :</p>
+                                                    <li class="portfolio__modal-projet">
+                                                        <h3>LE FRONT</h3>
+                                                        <p> vue.js (avec axios)</p>
+                                                    </li>
+                                                    <li class="portfolio__modal-projet">
+                                                        <h3>LE BACK</h3>
+                                                        <p>node.js, express</p>
+                                                    </li>
+                                                    <li class="portfolio__modal-projet">
+                                                        <h3>LA BASE DE DONNÉES</h3>
+                                                        <p>MySql (avec PhpMyAdmin)</p>
+                                                    </li>
+
+                                                    <div  class="portfolio__modal-buttoncontenair">
+                                                        <a href="https://github.com/kayancodes/panser" target="_blank" class="button portfolio__modal-button">Le code</a>
+                                                    </div>
+                                                    <div  class="portfolio__modal-buttoncontenair">
+                                                        <a href="https://github.com/kayancodes/panser" target="_blank" class="button portfolio__modal-button">Site en maintenance</a>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </ul>
+                                        </div>
+                                        <!-------------------------------------------------------------->  
+                                    
+                                    </div><!--fin swiper-wrapper-->
+
+
+                                    <!-- Add Pagination -->
+                                    <div class="swiper-pagination"></div>
+                                    <!-- Add Arrows -->
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+
+                                </div> <!--fin swiper-container-->
 
                             </div><!-- fin portfolio__modal-content-->
-                      </div>
-                        <!------------------------------------DEBUT MODAL PROJET 1------------>
+                        </div>
+                        <!------------------------------------DEBUT MODAL PROJET 3------------>
 
-                    </div>
-                    <!------- FIN PORTFOLIO PROJET 2 -------->
+                        </div>
+                        <!------- FIN PORTFOLIO PROJET 3 -------->
 
+
+
+                        <!------- DEBUT PORTFOLIO PROJET 2 ------>
+                        <div class="portfolio__card">
+                            <div class="portfolio__bkg">
+                                <img src="assets/img/cafe.png" alt="">
+                            </div>
+
+                            <div class="portfolio__content">
+                                <button class="portfolio__button-modal portfolio__button">
+                                    <i class="ri-add-line portfolio__modal-icon"></i>
+                                </button>
+                            
+
+                                <div class="portfolio__data">
+                                    <h3 class="portfolio__title">Café Royal : Acquisition et trafic</h3>
+                                    <span class="portfolio__subtitle">Intégration Front Responsive</span>
+                                </div>
+                            </div>
+
+                     
+                             
+                             <a href="https://angebot-cafe-royal.de/" class="portfolio__button-redirection portfolio__button" target="_blank">
+                                <i class="ri-arrow-right-line"></i>
+                            </a>
+                             
+                      
+
+                            <!------------------------------------DEBUT MODAL PROJET 2------------>
+                            <div class="portfolio__modal">
+                                <div class="portfolio__modal-content">
+
+                                    <div class="swiper-container">
+                                        <div class="swiper-wrapper">
+
+                                            <!-------------------------------------------------------------->
+                                            <div class="swiper-slide">
+                                                <h1 class="portfolio__modal-title">Café Royal</h1>
+                                                <i class="ri-close-fill portfolio__modal-close"></i>
+
+                                                <ul class="portfolio__modal-pano">
+                                                    <div class="portfolio__modal-contenair grid">
+                                                        <li class="portfolio__modal-projet">
+                                                            <h3>Rôle joué </h3>
+                                                            <p>Intégrateur web</p>
+                                                        </li>
+                                                        <li class="portfolio__modal-projet">
+                                                            <h3>Outils</h3>
+                                                            <p>HTML - CSS - SASS - Responsive Design - PHP - BEM - Flexbox - 
+                                                                NPM - Yarn - Gitbash - Avocode - Photoshop</p>
+                                                        </li>
+                                                        <li class="portfolio__modal-projet">
+                                                            <h3>Nombre de pages</h3>
+                                                            <p>2</p>
+                                                        </li>
+                                                        <li class="portfolio__modal-projet">
+                                                            <h3>Client </h3>
+                                                            <p>Café royal</p>
+                                                        </li>
+                                                        <li class="portfolio__modal-projet">
+                                                            <h3>Agence</h3>
+                                                            <p>Avent Media Group</p>
+                                                        </li>
+                                                        <li class="portfolio__modal-projet">
+                                                            <h3>Type de campagne</h3>
+                                                            <p>Acquisition et trafic</p>
+                                                        </li>
+                                                        <li class="portfolio__modal-projet">
+                                                            <h3>Date de réalisation :</h3>
+                                                            <p>2019</p>
+                                                        </li>
+                                                    </div>
+                                                </ul>
+                                            </div>
+                                            <!-------------------------------------------------------------->  
+
+                                            <!-------------------------------------------------------------->
+                                            <div class="swiper-slide">
+                                                <h1 class="portfolio__modal-title">Café Royal</h1>
+                                                <i class="ri-close-fill portfolio__modal-close"></i>
+
+                                                <div class="portfolio__modal-pano grid">
+                                                    <div class="portfolio__modal-contenair grid">
+                                                        <div class="portfolio__modal-projet">
+                                                            <h3>Objectif 1 </h3>
+                                                            <p>Collecter les données personnelles des clients potentiels via le formulaire de la première page, 
+                                                            la page d’inscription, pour augmenter la taille de la base de données de la marque.
+                                                            </p>
+                                                        </div>
+                                                        <div class="portfolio__modal-projet">
+                                                            <h3>Objectif 2 </h3>
+                                                            <p>Inciter les clients potentiels à acheter les produits de la marque, via la page de confirmation, 
+                                                            afin de générer plus de trafic.
+                                                        </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--------------------------------------------------------------> 
+                                        
+                                            <!-------------------------------------------------------------->
+                                            <div class="swiper-slide">
+                                                <h1 class="portfolio__modal-title">Café Royal</h1>
+                                                <i class="ri-close-fill portfolio__modal-close"></i>
+
+                                                <div class="portfolio__modal-pano grid">
+                                                    <div class="portfolio__modal-contenair grid centre">
+                                                        <h3>Page d'Inscription version mobile</h3>
+
+                                                        <div class="portfolio__img-container">
+                                                            <img src="assets/img/cafe__gif.gif" class="portfolio__img-modal" alt="">
+                                                        </div>
+
+                                                        <div  class="portfolio__modal-buttoncontenair">
+                                                            <a href="https://angebot-cafe-royal.de/" target="_blank" class="button portfolio__modal-button">Page d'inscription</a>
+                                                        </div>
+                                                    </div>
+                                               
+                                                </div>
+                                            </div>
+                                            <!-------------------------------------------------------------->  
+
+                                            <!-------------------------------------------------------------->
+                                            <div class="swiper-slide">
+                                                <h1 class="portfolio__modal-title">Café Royal</h1>
+                                                <i class="ri-close-fill portfolio__modal-close"></i>
+
+                                                <div class="portfolio__modal-pano grid">
+                                                    <div class="portfolio__modal-contenair grid centre">
+                                                        <h3>Page de confirmation version desktop</h3>
+                                                        <div class="portfolio__img-container">
+                                                            <img src="assets/img/cafe__img.jpg" class="portfolio__img-modal" alt="">
+                                                        </div>
+
+                                                        <div  class="portfolio__modal-buttoncontenair">
+                                                            <a href="https://angebot-cafe-royal.de/confirmation/366889a67e6eb03a300e871395cb59b2" target="_blank" class="button portfolio__modal-button">Page de confirmation</a>
+                                                        </div>
+
+                                                    </div>
+                                               
+                                                </div>
+                                            </div>
+                                            <!-------------------------------------------------------------->  
+                                        
+                                        </div><!--fin swiper-wrapper-->
+
+
+                                        <!-- Add Pagination -->
+                                        <div class="swiper-pagination"></div>
+                                        <!-- Add Arrows -->
+                                        <div class="swiper-button-next"></div>
+                                        <div class="swiper-button-prev"></div>
+
+                                    </div> <!--fin swiper-container-->
+
+                                </div><!-- fin portfolio__modal-content-->
+                            </div>
+                            <!------------------------------------DEBUT MODAL PROJET 2------------>
+
+                        </div>
+                        <!------- FIN PORTFOLIO PROJET 2 -------->
+
+
+
+                        <!------- DEBUT PORTFOLIO PROJET 1 ------>
+                        <div class="portfolio__card">
+                            <div class="portfolio__bkg">
+                                <img src="assets/img/fiat.png" alt="">
+                            </div>
+
+                            <div class="portfolio__content">
+                                <button class="portfolio__button-modal portfolio__button">
+                                    <i class="ri-add-line portfolio__modal-icon"></i>
+                                </button>
+                            
+
+                                <div class="portfolio__data">
+                                    <h3 class="portfolio__title">Fiat 500X Sport : lead to store</h3>
+                                    <span class="portfolio__subtitle">Intégration Front Responsive</span>
+                                </div>
+                            </div>
+
+                     
+                             
+                             <a href="https://monessaiauto-fiat500x.fr/" class="portfolio__button-redirection portfolio__button" target="_blank">
+                                <i class="ri-arrow-right-line"></i>
+                            </a>
+                             
+                      
+
+                            <!------------------------------------DEBUT MODAL PROJET 1------------>
+                            <div class="portfolio__modal">
+                                <div class="portfolio__modal-content">
+
+                                    <div class="swiper-container">
+                                        <div class="swiper-wrapper">
+
+                                            <!-------------------------------------------------------------->
+                                            <div class="swiper-slide">
+                                                <h1 class="portfolio__modal-title">Fiat 500X Sport</h1>
+                                                <i class="ri-close-fill portfolio__modal-close"></i>
+
+                                                <ul class="portfolio__modal-pano">
+                                                    <div class="portfolio__modal-contenair grid">
+                                                        <li class="portfolio__modal-projet">
+                                                            <h3>Rôle joué </h3>
+                                                            <p>Intégrateur web</p>
+                                                        </li>
+                                                        <li class="portfolio__modal-projet">
+                                                            <h3>Outils</h3>
+                                                            <p>HTML - CSS - SASS - Responsive Design - BEM - Flexbox -
+                                                                NPM - Yarn - Gitbash - Avocode - Photoshop</p>
+                                                        </li>
+                                                        <li class="portfolio__modal-projet">
+                                                            <h3>Nombre de pages</h3>
+                                                            <p>2</p>
+                                                        </li>
+                                                        <li class="portfolio__modal-projet">
+                                                            <h3>Client </h3>
+                                                            <p>Café royal</p>
+                                                        </li>
+                                                        <li class="portfolio__modal-projet">
+                                                            <h3>Agence</h3>
+                                                            <p>Avent Media Group</p>
+                                                        </li>
+                                                        <li class="portfolio__modal-projet">
+                                                            <h3>Type de campagne</h3>
+                                                            <p>Lead to store</p>
+                                                        </li>
+                                                        <li class="portfolio__modal-projet">
+                                                            <h3>Date de réalisation :</h3>
+                                                            <p>2019</p>
+                                                        </li>
+                                                    </div>
+                                                </ul>
+                                            </div>
+                                            <!-------------------------------------------------------------->  
+
+                                            <!-------------------------------------------------------------->
+                                            <div class="swiper-slide">
+                                                <h1 class="portfolio__modal-title">Fiat 500X Sport</h1>
+                                                <i class="ri-close-fill portfolio__modal-close"></i>
+
+                                                <div class="portfolio__modal-pano grid">
+                                                    <div class="portfolio__modal-contenair grid">
+                                                        <div class="portfolio__modal-projet">
+                                                            <h3>Objectif 1 </h3>
+                                                            <p>Collecter les données personnelles des clients potentiels, via le formulaire de la première page, 
+                                                            la page d’inscription, pour augmenter la taille de la base de données de la marque.
+                                                            </p>
+                                                        </div>
+                                                        <div class="portfolio__modal-projet">
+                                                            <h3>Objectif 2 </h3>
+                                                            <p>Inciter les clients potentiels à se déplacer dans la concession automobile pour essayer 
+                                                            le véhicule et générer plus de ventes.
+                                                            </p>
+                                                        </div>
+                                                        <div class="portfolio__modal-projet">
+                                                            <h3>Remarque</h3>
+                                                            <p>Les campagnes autos sont des campagnes constamment mises à jour au fil des changements d'offres.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--------------------------------------------------------------> 
+                                        
+                                            <!-------------------------------------------------------------->
+                                            <div class="swiper-slide">
+                                                <h1 class="portfolio__modal-title">Fiat 500X Sport</h1>
+                                                <i class="ri-close-fill portfolio__modal-close"></i>
+
+                                                <div class="portfolio__modal-pano grid">
+                                                    <div class="portfolio__modal-contenair grid centre">
+                                                        <h3>Page d'Inscription version mobile</h3>
+
+                                                        <div class="portfolio__img-container">
+                                                            <img src="assets/img/fiat__gif.gif" class="portfolio__img-modal" alt="">
+                                                        </div>
+
+                                                        <div  class="portfolio__modal-buttoncontenair">
+                                                            <a href="https://monessaiauto-fiat500x.fr/" target="_blank" class="button portfolio__modal-button">Page d'inscription</a>
+                                                        </div>
+                                                    </div>
+                                               
+                                                </div>
+                                            </div>
+                                            <!-------------------------------------------------------------->  
+
+                                            <!-------------------------------------------------------------->
+                                            <div class="swiper-slide">
+                                                <h1 class="portfolio__modal-title">Fiat 500X Sport</h1>
+                                                <i class="ri-close-fill portfolio__modal-close"></i>
+
+                                                <div class="portfolio__modal-pano grid">
+                                                    <div class="portfolio__modal-contenair grid centre">
+                                                        <h3>Page de confirmation version desktop</h3>
+                                                        <div class="portfolio__img-container etroit">
+                                                            <img src="assets/img/fiat__img.jpg" class="portfolio__img-modal" alt="">
+                                                        </div>
+
+                                                        <div  class="portfolio__modal-buttoncontenair">
+                                                            <a href="https://monessaiauto-fiat500x.fr/confirmation/3295c2ca2c4a75ad22deadd56d93869b" target="_blank" class="button portfolio__modal-button">Page de confirmation</a>
+                                                        </div>
+
+                                                    </div>
+                                               
+                                                </div>
+                                            </div>
+                                            <!-------------------------------------------------------------->  
+                                        
+                                        </div><!--fin swiper-wrapper-->
+
+
+                                        <!-- Add Pagination -->
+                                        <div class="swiper-pagination"></div>
+                                        <!-- Add Arrows -->
+                                        <div class="swiper-button-next"></div>
+                                        <div class="swiper-button-prev"></div>
+
+                                    </div> <!--fin swiper-container-->
+
+                                </div><!-- fin portfolio__modal-content-->
+                            </div>
+                            <!------------------------------------DEBUT MODAL PROJET 1------------>
+
+                        </div>
+                        <!------- FIN PORTFOLIO PROJET 1 -------->
+                 
 
                     
                     
@@ -821,12 +1267,195 @@
             <!--========== FIN  PORTFOLIO ======================================================================-->
 
 
-            
+            <!--========== DEBUT  CONTACT ME ======================================================================-->
+            <section class="contact section" id="contact">
+                <h2 class="section__title">Contactez moi</h2>
+                <span class="section__subtitle">Prenons contact</span>
+
+                <div class="contact__container container grid">
+                    <div>
+                        <div class="contact__information">
+                            <!-- <i class="ri-phone-fill contact__icon"></i> -->
+                    
+                            <div>
+                                <a href="tel:0769758716" class="contact__title"><h3>Appelez Moi</h3></a>
+                                <span class="contact__subtitle">07 69 75 87 16</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <!-- <i class="ri-mail-fill contact__icon"></i> -->
+                    
+                            <div>
+                                <a href="mailto:yannickabasele@gmail.com" class="contact__title"><h3>E-mail</h3></a>
+                                <span class="contact__subtitle">Yannickabasele@gmail.com</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <!-- <i class="ri-map-pin-fill contact__icon"></i> -->
+                    
+                            <div>
+                                <h3 class="contact__title">Localisation</h3>
+                                <span class="contact__subtitle">Paris, France</span>
+                            </div>
+                        </div>
+                    </div>
 
 
-    
+                    <form action="" class="contact__form grid">
+
+                        <div class="contact__inputs grid">
+
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Nom</label>
+                                <input type="text" class="contact__input">
+                            </div>
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Email</label>
+                                <input type="email" class="contact__input">
+                            </div>
+                        </div>
+
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Project</label>
+                            <input type="text" class="contact__input">
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Message</label>
+                            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        </div>
+
+                        <div>
+                            <a href="#" class="button button--flex">
+                                Envoyez 
+                                <!-- <i class="ri-mail-send-line button__icon"></i> -->
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <!--========== FIN  CONTACT ME ======================================================================-->
+
         </main>
         <!--FIN MAIN ======================================================================================================================-->
+
+
+
+
+        <!--========== DEBUT  FOOTER ======================================================================-->
+        <footer class="footer section">
+                <div class="footer__container container grid">
+                    <div class="footer__content grid">
+
+                        <!--------  DEBUT FOOTER DATA 1 ----------------------->
+                        <div class="footer__data">
+                            <h3 class="footer__title">Yann</h3>
+                            <p class="footer__description">Intégrateur web <br> Développeur Frontend</p>
+
+                            <div>
+                                <!-- <a href="" target="_blank" class="footer__social">
+                                    <i class="ri-facebook-fill"></i>
+                                </a>
+        
+                                <a href="" target="_blank" class="footer__social">
+                                    <i class="ri-instagram-fill"></i>
+                                </a>
+        
+                                <a href="" target="_blank" class="footer__social">
+                                    <i class="ri-twitter-fill"></i>
+                                </a> -->
+        
+                                <a href="https://github.com/kayancodes" target="_blank" class="footer__social">
+                                    <i class="ri-github-fill"></i>                        
+                                </a>
+                            </div>
+                        </div>
+                        <!--------  DEBUT FOOTER DATA 1 ----------------------->
+
+                        <!--------  DEBUT FOOTER DATA 2 ----------------------->
+                        <div class="footer__data">
+                            <h3 class="footer__subtitle">Sommaire</h3>
+
+                            <ul>
+                                <li class="footer__item">
+                                    <a href="#apropos" class="footer__link">À propos</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#competences" class="footer__link">Compétences</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#services" class="footer__link">Services</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#portfolio" class="footer__link">Portfolio</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--------  DEBUT FOOTER DATA 2 ----------------------->
+
+                        <!--------  DEBUT FOOTER DATA 3 ----------------------->
+                        <div class="footer__data">
+                            <h3 class="footer__subtitle">Réalisations</h3>
+
+                            <ul>
+                                <li class="footer__item">
+                                    <a href="" class="footer__link">Portfolio Artistique</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="" class="footer__link">Panser</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="https://angebot-cafe-royal.de/" target="_blank" class="footer__link">Café Royal</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="https://monessaiauto-fiat500x.fr/" target="_blank" class="footer__link">Fiat 500X Sport</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--------  DEBUT FOOTER DATA 3 ----------------------->
+
+
+                        <!--------  DEBUT FOOTER DATA 4 ----------------------->
+                        <div class="footer__data">
+                            <h3 class="footer__subtitle">Contact</h3>
+
+                            <ul>
+                                <li class="footer__item">
+                                    <span><a href="tel:0769758716" class="footer__link">Téléphone</a></span><br>
+                                    <!-- <span class="footer__link">07 69 75 87 16</span> -->
+                                    
+                                </li>
+                                <li class="footer__item">
+                                    <span><a href="mailto:yannickabasele@gmail.com" class="footer__link">E-mail</a></span><br>
+                                    <!-- <span class="footer__link">Yannickabasele@gmail.com</span> -->
+                                    <!-- <a href="mailto:yannickabasele@gmail.com">E-mail</a> -->
+                                </li>
+                            </ul>
+                        </div>
+                        <!--------  DEBUT FOOTER DATA 4 ----------------------->
+                    </div>
+
+
+                   <div class="footer__rights">
+                       <p class="footer__copy">&#169; 2021 Yann. All rights reserved.</p>
+                   </div> 
+
+                </div>   
+        </footer>
+        <!--========== FIN FOOTER ======================================================================-->
+
+
+
+
+
+
+        <!--========== DEBUT SCROLL UP ======================================================================-->
+        <a href="#home" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+        <!--========== FIN SCROLL UP ======================================================================-->
+
 
 
         <!--SWIPER JS================================-->

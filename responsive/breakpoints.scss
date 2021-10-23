@@ -1,14 +1,17 @@
 //extra-small smartphones (landscape view)
 $screen-xs-min: 320px;
 
+
+
 //small smartphones (landscape view)
-$screen-s-min: 375px;
+$screen-s-max: 350px;
+
 
 //small-meddium smartphones (landscape view)
-$screen-sm-min: 414px;
+$screen-ss-min: 351px;
 
 //small tablets and large smartphones (landscape view)
-// $screen-sm-min: 576px;
+$screen-sm-min: 568px;
 
 
 
@@ -16,8 +19,12 @@ $screen-sm-min: 414px;
 //medium small tablets and large smartphones (landscape view)
 $screen-ms-max: 767px;
 
+
+
+
+
 //medium tablets (portrait view)
-$screen-md-min: 768px;
+$screen-md-min: 695px;
 
 // Tablets and small desktops
 $screen-lg-min: 968px;
