@@ -569,12 +569,16 @@ a.portfolio__data {
   opacity: 1;
   visibility: visible; }
 
+section.contact {
+  padding-bottom: 5rem; }
+
 .contact__container {
-  row-gap: 3rem; }
+  row-gap: 0rem; }
 
 .contact__information {
   display: flex;
-  margin-bottom: var(--mb-2); }
+  margin-bottom: var(--mb-2);
+  justify-content: center; }
 
 .contact__icon {
   font-size: 1rem;
