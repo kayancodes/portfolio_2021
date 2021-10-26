@@ -12,10 +12,6 @@
 
 
 
-//====================== DEBUT CSS GENERAL ====================== //
-
-
-
 
 //==== FONT AND TYPOGRAPHY ====================== //
 --body-font:'Open Sans', sans-serif;
@@ -357,9 +353,9 @@ input{
 
 
 
-.home__info-img{
-    background-color: blue;
-}
+// .home__info-img{
+//     background-color: blue;
+// }
 
 .home__info-text{
     background-color: $color1;
@@ -695,6 +691,13 @@ input{
     padding: .75rem .75rem 1rem;
 }
 
+.portfolio__data{
+    cursor: pointer;
+}
+
+a.portfolio__data{
+    color: $color4;
+}
 
 
 
@@ -738,6 +741,12 @@ input{
 }
 .portfolio__button:hover{
     background-color: $color2;
+}
+
+.portfolio__button-autres{
+    display: flex;
+    justify-content: center;
+    margin-top: var(--mb-2);
 }
 
 
@@ -1223,6 +1232,9 @@ input{
     .home__text{
         margin-bottom: 5rem;
     }
+    .home__info-text{
+        padding: 3.5rem 1.5rem 3.5rem;
+    }
     
 
 
@@ -1339,6 +1351,10 @@ input{
     .home__container{
        margin-left: auto !important;
         margin-right: auto !important;
+    }
+    .home__info-text {
+        background-color: #eeecec;
+        padding: 5rem 2.2rem 5rem;
     }
 
 
