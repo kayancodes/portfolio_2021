@@ -418,6 +418,46 @@ input{
     display: flex;
     justify-content: center;
 }
+
+.apropos__data{
+    margin-bottom: var(--mb-3)
+}
+.apropos2__container{
+    text-align:center;
+   margin-top: 2rem;
+   margin-bottom: 4rem;
+}
+.apropos__title{
+    margin-bottom: var(--mb-0-25);
+    color: $color4;
+    font-weight: var(--font-light);
+}
+.apropos__content{
+    margin-bottom: var(--mb-0-25);
+}
+
+
+.apropos3__container{
+    text-align: center;
+}
+.apropos3__img-container{
+    width: 100%;
+    height: 300px;
+    background-color:$color1;
+}
+
+
+
+
+.apropos3__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img.apropos2__img{
+    max-width: 60%;
+}
+
 //========FIN A PROPOS==============================================//
 
 
@@ -652,6 +692,8 @@ input{
 .portfolio__bkg{
     height: 500px;
 }
+
+
 
 .portfolio__bkg{
     background-color: $color1;
@@ -1229,6 +1271,21 @@ a.contact__title h3:hover{
     height: 700px;
 }
 
+.apropos2__container{
+    max-width: 400px;
+    margin: 2rem auto 4rem;
+    grid-template-columns: repeat(2, 1fr );
+}
+
+
+.apropos3__container{
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5rem;
+}
+.apropos3__texte{
+    padding-top: 5rem;
+    text-align: right;
+}
 
    
 
@@ -1357,8 +1414,21 @@ a.contact__title h3:hover{
      .portfolio__img-container{
          width: 60%;
      }
+
+     .apropos2__container {
+         margin-top: 4rem;
+         margin-bottom: 6rem;
+     }
+
+
+
+
+
    
 
+
+
+     
 
 
 
@@ -1417,6 +1487,10 @@ a.contact__title h3:hover{
     .portfolio__img-container.large{ //INTEGRATION FIAT
         width: 48%;
     }
+
+
+
+  
 
 
 
