@@ -359,7 +359,7 @@ input{
 
 .home__info-text{
     background-color: $color1;
-    padding: 3rem 1.5rem 3rem;
+    padding: 2rem 1.5rem 2rem;
    
     
 }
@@ -1118,6 +1118,10 @@ a.portfolio__data{
 @include ss{
     .home__text{
         margin-bottom: 1rem; 
+    }
+
+    .home__info-text {
+        padding: 2rem 1.5rem 2rem;
     }
 
     .portfolio__modal-content{

@@ -227,7 +227,7 @@ input {
 
 .home__info-text {
   background-color: #eeecec;
-  padding: 3rem 1.5rem 3rem; }
+  padding: 2rem 1.5rem 2rem; }
 
 .home__description {
   font-size: var(--normal-font-size); }
@@ -704,6 +704,9 @@ a.portfolio__data {
 @media (min-width: 351px) {
   .home__text {
     margin-bottom: 1rem; }
+
+  .home__info-text {
+    padding: 2rem 1.5rem 2rem; }
 
   .portfolio__modal-content {
     height: 90%;
