@@ -904,6 +904,10 @@ section.contact{
    font-size: var(--h3-font-size); 
    font-weight: var(--font-medium);
 }
+a.contact__title h3:hover{
+    color:$color3;
+    cursor: pointer;
+}
 
 .contact__subtitle{
     font-size: var(--small-font-size);
