@@ -342,7 +342,7 @@ input{
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    height: 98vh;
+    height: 92vh;
     margin-left: 0 !important;
     margin-right: 0 !important;
 }
@@ -377,7 +377,10 @@ input{
 //========DEBUT A PROPOS==============================================//
 .apropos__img-container{
     width: 100%;
-    height: 300px;
+    height: 170px;
+    // background-color:$color1;
+}
+.apropos3__img{
     background-color:$color1;
 }
 
@@ -1283,7 +1286,6 @@ a.contact__title h3:hover{
     column-gap: 5rem;
 }
 .apropos3__texte{
-    padding-top: 5rem;
     text-align: right;
 }
 
@@ -1415,10 +1417,10 @@ a.contact__title h3:hover{
          width: 60%;
      }
 
-     .apropos2__container {
-         margin-top: 4rem;
-         margin-bottom: 6rem;
-     }
+    //  .apropos2__container {
+    //      margin-top: 4rem;
+    //      margin-bottom: 6rem;
+    //  }
 
 
 

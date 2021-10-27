@@ -218,7 +218,7 @@ input {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  height: 98vh;
+  height: 92vh;
   margin-left: 0 !important;
   margin-right: 0 !important; }
 
@@ -234,7 +234,9 @@ input {
 
 .apropos__img-container {
   width: 100%;
-  height: 300px;
+  height: 170px; }
+
+.apropos3__img {
   background-color: #eeecec; }
 
 .apropos__description {
@@ -787,7 +789,6 @@ a.contact__title h3:hover {
     column-gap: 5rem; }
 
   .apropos3__texte {
-    padding-top: 5rem;
     text-align: right; } }
 @media (min-width: 695px) {
   body {
@@ -866,11 +867,7 @@ a.contact__title h3:hover {
     gap: 3rem; }
 
   .portfolio__img-container {
-    width: 60%; }
-
-  .apropos2__container {
-    margin-top: 4rem;
-    margin-bottom: 6rem; } }
+    width: 60%; } }
 @media (min-width: 1024px) {
   .container {
     margin-left: auto;
